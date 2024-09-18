@@ -21,7 +21,7 @@ const NavBar = () => {
       //   ),
     },
   ];
-  return <FloatingNav navItems={navItems} />;
+  return <FloatingNav navItems={navItems} className="w-full" />;
 };
 
 export default NavBar;

@@ -25,10 +25,11 @@ const slugs = [
   "bitbucket",
   "visualstudiocode",
   "figma",
+  "axios",
 ];
 const Skills = () => {
   return (
-    <div className="relative flex h-[100vh] w-full flex-col items-center justify-center overflow-hidden rounded-lg border-none bg-transparent md:shadow-xl">
+    <div className="relative flex h-[80vh] w-full flex-col items-center justify-center overflow-hidden ">
       {/* 1st Inner Circles */}
       {/* <>
         <OrbitingCircles

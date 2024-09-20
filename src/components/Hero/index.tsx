@@ -42,9 +42,11 @@ const Hero = () => {
                 I bring value to web development projects by merging technical
                 expertise with creativity and aesthetics.
               </p>
-              <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-white transition-colors focus:outline-none ">
-                See my work
-              </button>
+              <a href="#work">
+                <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-white transition-colors focus:outline-none ">
+                  See my work
+                </button>
+              </a>
             </div>
           </div>
           <div className="w-[40vw] hidden lg:block">

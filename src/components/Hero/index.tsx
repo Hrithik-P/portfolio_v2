@@ -6,7 +6,6 @@ import { Spotlight } from "../ui/Spotlight";
 
 import Skills from "../ui/Skills";
 import NavBar from "../NavBar";
-import Link from "next/link";
 
 const Hero = () => {
   return (

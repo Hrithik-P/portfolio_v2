@@ -2,9 +2,9 @@
 "use client";
 import React from "react";
 import { projects } from "../data";
-import ProjectCard from "../ui/ProjectCard";
+
 import { PinContainer } from "../ui/PinContainer";
-import Image from "next/image";
+
 import { FaLocationArrow } from "react-icons/fa";
 import Ripple from "../ui/Ripple";
 
@@ -16,7 +16,7 @@ const Work = () => {
         <br />
         <span className="text-purple">Work</span>
       </h1>
-      <Ripple className="-right-[100%] -top-[20%] " />
+      <Ripple className="left-[90%] top-[30%] w-[400px] h-[400px]" />
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
           <div

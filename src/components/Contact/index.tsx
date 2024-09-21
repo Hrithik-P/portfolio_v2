@@ -10,7 +10,6 @@ import {
 import { Input } from "../ui/Input";
 import { Label } from "../ui/Label";
 import { FaLocationArrow } from "react-icons/fa";
-import Ripple from "../ui/Ripple";
 
 const Contact = () => {
   return (
@@ -18,7 +17,6 @@ const Contact = () => {
       <h1 className="heading">
         Contact <span className="text-purple">Me</span>
       </h1>
-      {/* <Ripple className="-left-[100%] -bottom-[100%] " numCircles={12} /> */}
       <div className="flex justify-between mx-[15rem] mt-10 gap-[4rem]">
         <div className="px-[3rem] py-[2rem]">
           <div className="w-[30vw]">

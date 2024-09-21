@@ -1,4 +1,14 @@
-import reactIcon from "./react.svg";
+type About = {
+  [key: string]: {
+    id: number;
+    className: string;
+    isBlinking?: boolean;
+    code: {
+      text: string;
+      className: string;
+    }[];
+  };
+};
 export const projects = [
   {
     id: 1,
@@ -73,3 +83,101 @@ export const projects = [
     link: "www.grosavo.com",
   },
 ];
+
+export const about: About = {
+  line_1: {
+    id: 1,
+    className: "",
+    isBlinking: true,
+    code: [
+      {
+        text: "const",
+        className: "text-pink-500 mr-2",
+      },
+      {
+        text: "coder",
+        className: "text-white mr-2",
+      },
+      {
+        text: "=",
+        className: "text-pink-500 mr-2",
+      },
+      {
+        text: "{",
+        className: "text-gray-400",
+      },
+    ],
+  },
+  line_2: {
+    id: 2,
+    className: "",
+    code: [
+      {
+        text: "name:",
+        className: "text-white ml-8 mr-2",
+      },
+      {
+        text: "'",
+        className: "text-gray-400",
+      },
+      {
+        text: "Hrithik",
+        className: "text-amber-300",
+      },
+      {
+        text: "',",
+        className: "text-gray-400",
+      },
+    ],
+  },
+  line_3: {
+    id: 3,
+    className: "",
+    code: [
+      {
+        text: "dayOfBirthTimestamp:",
+        className: "text-white ml-8 mr-2",
+      },
+      {
+        text: `${new Date(2001, 8, 19).getTime()}`,
+        className: "text-amber-300",
+      },
+      {
+        text: ",",
+        className: "text-gray-400",
+      },
+    ],
+  },
+  line_4: {
+    id: 4,
+    className: "",
+    code: [
+      {
+        text: "linkedIn:",
+        className: "text-white ml-8 mr-2",
+      },
+      {
+        text: "'",
+        className: "text-gray-400",
+      },
+      {
+        text: "https://www.linkedin.com/in/hrithik-p/",
+        className: "text-amber-300",
+      },
+      {
+        text: "',",
+        className: "text-gray-400",
+      },
+    ],
+  },
+  line_5: {
+    id: 5,
+    className: "",
+    code: [
+      {
+        text: "}",
+        className: "text-gray-400",
+      },
+    ],
+  },
+};

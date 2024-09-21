@@ -10,10 +10,10 @@ export const projects = [
       "/typescript-color.svg",
       "/tailwindcss-color.svg",
     ],
-    link: "www.grosavo.com",
+    link: "https://classreport.in/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Grosav",
     des: "This is a new project",
     img: "/grosav-ai.jpg",
@@ -25,7 +25,7 @@ export const projects = [
     link: "www.grosavo.com",
   },
   {
-    id: 1,
+    id: 3,
     title: "Grosav",
     des: "This is a new project",
     img: "/grosav-ai.jpg",
@@ -37,7 +37,7 @@ export const projects = [
     link: "www.grosavo.com",
   },
   {
-    id: 1,
+    id: 4,
     title: "Grosav",
     des: "This is a new project",
     img: "/grosav-ai.jpg",
@@ -49,7 +49,7 @@ export const projects = [
     link: "www.grosavo.com",
   },
   {
-    id: 1,
+    id: 5,
     title: "Grosav",
     des: "This is a new project",
     img: "/grosav-ai.jpg",
@@ -61,7 +61,7 @@ export const projects = [
     link: "www.grosavo.com",
   },
   {
-    id: 1,
+    id: 6,
     title: "Grosav",
     des: "This is a new project",
     img: "/grosav-ai.jpg",

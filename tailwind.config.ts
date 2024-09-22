@@ -164,6 +164,14 @@ const config = {
             transform: "translate(-50%, -50%) scale(0.9)",
           },
         },
+        blink: {
+          " 0%": {
+            borderRightColor: "transparent",
+          },
+          "100%": {
+            borderRightColor: "#fff",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -177,6 +185,7 @@ const config = {
         fifth: "moveInCircle 20s ease infinite",
         orbit: "orbit calc(var(--duration)*1s) linear infinite",
         ripple: "ripple var(--duration,2s) ease calc(var(--i, 0)*.2s) infinite",
+        blink: "blink 0.8s linear infinite",
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },

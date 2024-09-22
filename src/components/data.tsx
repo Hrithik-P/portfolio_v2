@@ -19,6 +19,7 @@ export const projects = [
       "/react-color.svg",
       "/typescript-color.svg",
       "/tailwindcss-color.svg",
+      "/laravel-color.svg",
     ],
     link: "https://classreport.in/",
   },
@@ -121,7 +122,7 @@ export const about: About = {
         className: "text-gray-400",
       },
       {
-        text: "Hrithik",
+        text: "Hrithik P",
         className: "text-amber-300",
       },
       {
@@ -172,6 +173,240 @@ export const about: About = {
   },
   line_5: {
     id: 5,
+    className: "",
+    code: [
+      {
+        text: "workExperience:",
+        className: "text-green-400 ml-8 mr-2",
+      },
+      {
+        text: "function",
+        className: "text-orange-400",
+      },
+      {
+        text: "() {",
+        className: "text-gray-400",
+      },
+    ],
+  },
+  line_6: {
+    id: 6,
+    className: "",
+    code: [
+      {
+        text: "return",
+        className: "text-green-400 ml-16 mr-2",
+      },
+      {
+        text: "([",
+        className: "text-gray-400",
+      },
+    ],
+  },
+  line_7: {
+    id: 7,
+    className: "",
+    code: [
+      {
+        text: "{",
+        className: "text-gray-400 ml-24 mr-2",
+      },
+      {
+        text: "'2023-present'",
+        className: "text-cyan-400 mr-2",
+      },
+      {
+        text: ":",
+        className: "text-gray-400 mr-2",
+      },
+      {
+        text: "'Software Developer at Quintet Solutions Pvt. Ltd.'",
+        className: "text-cyan-400 mr-2",
+      },
+      {
+        text: "},",
+        className: "text-gray-400",
+      },
+    ],
+  },
+  line_8: {
+    id: 8,
+    className: "",
+    code: [
+      {
+        text: "{",
+        className: "text-gray-400 ml-24 mr-2",
+      },
+      {
+        text: "'2022-2023'",
+        className: "text-cyan-400 mr-2",
+      },
+      {
+        text: ":",
+        className: "text-gray-400 mr-2",
+      },
+      {
+        text: "'Junior Software Developer at Howin Cloud Pvt. Ltd.'",
+        className: "text-cyan-400 mr-2",
+      },
+      {
+        text: "},",
+        className: "text-gray-400",
+      },
+    ],
+  },
+  line_9: {
+    id: 9,
+    className: "",
+    code: [
+      {
+        text: "{",
+        className: "text-gray-400 ml-24 mr-2",
+      },
+      {
+        text: "'2022-2022'",
+        className: "text-cyan-400 mr-2",
+      },
+      {
+        text: ":",
+        className: "text-gray-400 mr-2",
+      },
+      {
+        text: "'Inter Developer at Howin Cloud Pvt. Ltd.'",
+        className: "text-cyan-400 mr-2",
+      },
+      {
+        text: "},",
+        className: "text-gray-400",
+      },
+    ],
+  },
+  line_10: {
+    id: 10,
+    className: "",
+    code: [
+      {
+        text: "])",
+        className: "text-gray-400 ml-16",
+      },
+    ],
+  },
+  line_11: {
+    id: 11,
+    className: "",
+    code: [
+      {
+        text: "},",
+        className: "text-gray-400 ml-8",
+      },
+    ],
+  },
+  line_12: {
+    id: 12,
+    className: "",
+    code: [
+      {
+        text: "education:",
+        className: "text-green-400 ml-8 mr-2",
+      },
+      {
+        text: "function",
+        className: "text-orange-400",
+      },
+      {
+        text: "() {",
+        className: "text-gray-400",
+      },
+    ],
+  },
+  line_13: {
+    id: 13,
+    className: "",
+    code: [
+      {
+        text: "return",
+        className: "text-green-400 ml-16 mr-2",
+      },
+      {
+        text: "([",
+        className: "text-gray-400",
+      },
+    ],
+  },
+  line_14: {
+    id: 14,
+    className: "",
+    code: [
+      {
+        text: "{",
+        className: "text-gray-400 ml-24 mr-2",
+      },
+      {
+        text: "'2019-2022'",
+        className: "text-cyan-400 mr-2",
+      },
+      {
+        text: ":",
+        className: "text-gray-400 mr-2",
+      },
+      {
+        text: "'St Mary's College - Bachelor of computer application'",
+        className: "text-cyan-400 mr-2",
+      },
+      {
+        text: "},",
+        className: "text-gray-400",
+      },
+    ],
+  },
+  line_15: {
+    id: 15,
+    className: "",
+    code: [
+      {
+        text: "{",
+        className: "text-gray-400 ml-24 mr-2",
+      },
+      {
+        text: "'2017-2019'",
+        className: "text-cyan-400 mr-2",
+      },
+      {
+        text: ":",
+        className: "text-gray-400 mr-2",
+      },
+      {
+        text: "'GMHSS - Computer Science'",
+        className: "text-cyan-400 mr-2",
+      },
+      {
+        text: "},",
+        className: "text-gray-400",
+      },
+    ],
+  },
+  line_17: {
+    id: 17,
+    className: "",
+    code: [
+      {
+        text: "])",
+        className: "text-gray-400 ml-16",
+      },
+    ],
+  },
+  line_18: {
+    id: 18,
+    className: "",
+    code: [
+      {
+        text: "},",
+        className: "text-gray-400 ml-8",
+      },
+    ],
+  },
+  line_25: {
+    id: 25,
     className: "",
     code: [
       {
